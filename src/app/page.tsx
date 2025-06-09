@@ -1,9 +1,18 @@
-import React from 'react'
+import { SignedIn, SignedOut, SignInButton, SignOutButton } from '@clerk/nextjs'
 
 function Home() {
-  
+
   return (
-    <div>page</div>
+    <div>HOME
+
+      <SignedIn>
+        <SignOutButton/>
+      </SignedIn>
+
+      <SignedOut>
+        <SignInButton/>
+      </SignedOut>
+    </div>
   )
 }
 
