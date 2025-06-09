@@ -1,10 +1,9 @@
 import React from 'react'
 
-function Home() {
-  
+function Profile() {
   return (
     <div>page</div>
   )
 }
 
-export default Home
+export default Profile
