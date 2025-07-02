@@ -2,7 +2,7 @@ import React from 'react'
 
 function Profile() {
   return (
-    <div>page</div>
+    <div>pagenb nbnnnnnnnnn</div>
   )
 }
 
